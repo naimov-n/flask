@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='libs/bootstrap-4.6.0-dist/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='libs/font-awesome-4.7.0/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icomoon/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/Inter/stylesheet.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/Gilroy/stylesheet.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='fonts/Optima/stylesheet.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/media.css')}}">
+    <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+ <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrapper">
+                    <a href="/" class="header-logo">
+                        <img src="{{ url_for('static', filename='images/logo1.png')}}" alt="">
+                    </a>
+                    <div class="header-organ">
+                        <a href="#" class="header-organ-item">
+                            <div class="header-organ-image">
+                                <img src="{{ url_for('static', filename='images/organ1.png')}}" alt="">
+                            </div>
+                            <div class="header-organ-text">
+                                <span>Founded by
+                 <br> the European
+                 <br> Union</span>
+                            </div>
+                        </a>
+                        <a href="#" class="header-organ-item">
+                            <div class="header-organ-image">
+                                <img src="{{ url_for('static', filename='images/organ2.png')}}" alt="">
+                            </div>
+                            <div class="header-organ-text">
+                                <span>International
+                 <br> Trade
+                 <br> Center</span>
+                            </div>
+                        </a>
+                        <a href="#" class="header-organ-item">
+                            <div class="header-organ-image">
+                                <img src="{{ url_for('static', filename='images/organ3.png')}}" alt="">
+                            </div>
+                            <div class="header-organ-text">
+                                <span>Ministry of Investments
+                  <br> and Foreign Trade of the
+                  <br>  Republic of Uzbekistan</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-bottom-wrapper">
+                    <div class="header-navbar">
+                        <ul>
+                            <li><a href="/about">About project</a></li>
+                            <li><a href="#">WTO accession</a></li>
+                            <li><a href="#">Benificiaries</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">News and Stories</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-lang">
+                        <ul>
+                            <li><a href="#" class="active">Eng</a></li>
+                            <li><a href="#">Рус</a></li>
+                            <li><a href="#">Uz</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-search">
+                        <a href="#"><i class="icon-search"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+{% block body %}{% endblock %}
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-top">
+                    <div class="footer-first">
+                        <a href="#" class="footer-logo">
+                            <img src="{{ url_for('static', filename='images/logo2.png')}}" alt="">
+                        </a>
+                        <div class="footer-social">
+                            <span><i class="icon-internet"></i>Social network</span>
+                            <ul>
+                                <li><a href="#"><i class="icon-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-organ">
+                            <a href="#" class="footer-organ-item">
+                                <div class="footer-organ-image">
+                                    <img src="{{ url_for('static', filename='images/organ1.png')}}" alt="">
+                                </div>
+                                <div class="footer-organ-text">
+                                    <span>Founded by
+                   <br> the European
+                   <br> Union</span>
+                                </div>
+                            </a>
+                            <a href="#" class="footer-organ-item">
+                                <div class="footer-organ-image">
+                                    <img src="{{ url_for('static', filename='images/organ2.png')}}" alt="">
+                                </div>
+                                <div class="footer-organ-text">
+                                    <span>International
+                   <br> Trade
+                   <br> Center</span>
+                                </div>
+                            </a>
+                            <a href="#" class="footer-organ-item">
+                                <div class="footer-organ-image">
+                                    <img src="{{ url_for('static', filename='images/organ3.png')}}" alt="">
+                                </div>
+                                <div class="footer-organ-text">
+                                    <span>Ministry of Investments
+                    <br> and Foreign Trade of the
+                    <br>  Republic of Uzbekistan</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-second">
+                        <h5>Sections</h5>
+                        <ul>
+                            <li>
+                                <a href="#">About project</a>
+
+                            </li>
+                            <li>
+                                <a href="#">About project</a>
+
+                            </li>
+                            <li>
+                                <a href="#">About project</a>
+
+                            </li>
+                            <li>
+                                <a href="#">About project</a>
+
+                            </li>
+                            <li>
+                                <a href="#">About project</a>
+
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-third">
+                        <ul>
+                            <li>
+                                <span><i class="icon-call"></i>Contact</span>
+                                <a href="#">+998 33 571 77 77</a>
+                            </li>
+                            <li>
+                                <span><i class="icon-call"></i>Email</span>
+                                <a href="#">intracen@info</a>
+                            </li>
+                            <li>
+                                <span><i class="icon-link"></i>Links</span>
+                                <dir class="footer-link">
+                                    <div class="footer-link-qr">
+                                        <img src="{{ url_for('static', filename='images/qr.svg')}}" alt="">
+                                    </div>
+                                    <div class="footer-link-url">
+                                        <a href="#">www.intracen.org/UZBWTO/</a>
+                                        <a href="#">www.facebook.com/groups/uzbwto</a>
+                                    </div>
+                                </dir>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <span>2022 All Rights Reserved</span>
+                    <span>Developed by <a href="#">Online Service Group</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='libs/jquery/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='libs/bootstrap-4.6.0-dist/js/bootstrap.min.js')}}"></script>
+    <script>
+        $(".news-carousel").owlCarousel({
+            loop: true,
+            margin: 24,
+            items: 3,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        });
+        $(".links-carousel").owlCarousel({
+            loop: true,
+            margin: 24,
+            items: 3,
+            nav: true,
+            dots: false,
+            navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"]
+        });
+    </script>
+</body>
+</html>

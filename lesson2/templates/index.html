@@ -1,0 +1,260 @@
+{% extends 'blog.html' %}
+
+{% block title %}WTO{% endblock %}
+
+{% block body %}
+<sectoin class="banner">
+        <div class="container">
+            <div class="banner-wrapper">
+                <div class="banner-info">
+                    <h2>Facilitating the Process of Uzbekistan’s Accession to the <br> WTO</h2>
+                    <p>Established in 1964, the International <br> Trade Centre (ITC) is the joint agency of the World Trade <br> Organization
+                    </p>
+                    <a href="#">More about projects</a>
+                </div>
+                <div class="banner-image img">
+                    <img src="{{ url_for('static', filename='images/banner1.jpeg')}}" alt="">
+                </div>
+            </div>
+        </div>
+    </sectoin>
+
+    <section class="result section">
+        <div class="container">
+            <div class="result-wrapper">
+                <div class="resulut-title title">
+                    <h2>Foreseen results</h2>
+                </div>
+                <div class="result-main">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="result-item">
+                                <div class="result-info">
+                                    <p>The Uzbek government will be better equipped to draft the documents and develop its negotiating positions as required by the WTO accession procces</p>
+                                </div>
+                                <div class="result-number">
+                                    <h5>01</h5>
+                                </div>
+                            </div>
+                        </div>
+                        wkjfbwkefb
+                        {{ data.name }}
+                        {% for car in cars %}
+                        <p>{{ car.id }}</p>
+                        {% endfor %}
+                        <div class="col-lg-4">
+                            <div class="result-item">
+                                <div class="result-info">
+
+                                </div>
+                                <div class="result-number">
+                                    <h5>02</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="result-item">
+                                <div class="result-info">
+                                    <p>The Uzbek government will be better equipped to draft the documents and develop its negotiating positions as required by the WTO accession procces</p>
+                                </div>
+                                <div class="result-number">
+                                    <h5>03</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="result-item">
+                                <div class="result-info">
+                                    <p>The Uzbek government will be better equipped to draft the documents and develop its negotiating positions as required by the WTO accession procces</p>
+                                </div>
+                                <div class="result-number">
+                                    <h5>04</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="result-item">
+                                <div class="result-info">
+                                    <p>The Uzbek government will be better equipped to draft the documents and develop its negotiating positions as required by the WTO accession procces</p>
+                                </div>
+                                <div class="result-number">
+                                    <h5>05</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="result-item result-last">
+                                <span>Read more about us</span>
+                                <a href="#">More about projects</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="news section">
+        <div class="container">
+            <div class="news-wrapper">
+                <div class="news-title title">
+                    <h2>News</h2>
+                </div>
+                <div class="news-main">
+                    <div class="owl-carousel owl-theme news-carousel">
+                        <div class="item">
+                            <a href="#" class="news-item">
+                                <div class="news-image img">
+                                    <img src="{{ url_for('static', filename='images/news1.jpeg')}}" alt="">
+                                </div>
+                                <div class="news-date">
+                                    <span><i class="icon-calendar"></i>14.02.2022</span>
+                                    <span><i class="icon-view"></i>268 473</span>
+                                </div>
+                                <div class="news-info">
+                                    <h4>Mayor of the city Alexei Romanov met with Artem Vlasov</h4>
+                                    <p>Power outage in Uzbekistan was caused by a major accident in...</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="news-item">
+                                <div class="news-image img">
+                                    <img src="{{ url_for('static', filename='images/news2.jpeg')}}" alt="">
+                                </div>
+                                <div class="news-date">
+                                    <span><i class="icon-calendar"></i>14.02.2022</span>
+                                    <span><i class="icon-view"></i>268 473</span>
+                                </div>
+                                <div class="news-info">
+                                    <h4>Mayor of the city Alexei Romanov met with Artem Vlasov</h4>
+                                    <p>Power outage in Uzbekistan was caused by a major accident in...</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="news-item img">
+                                <div class="news-image">
+                                    <img src="{{ url_for('static', filename='images/news3.jpeg')}}" alt="">
+                                </div>
+                                <div class="news-date">
+                                    <span><i class="icon-calendar"></i>14.02.2022</span>
+                                    <span><i class="icon-view"></i>268 473</span>
+                                </div>
+                                <div class="news-info">
+                                    <h4>Mayor of the city Alexei Romanov met with Artem Vlasov</h4>
+                                    <p>Power outage in Uzbekistan was caused by a major accident in...</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="news-item img">
+                                <div class="news-image">
+                                    <img src="{{ url_for('static', filename='images/news1.jpeg')}}" alt="">
+                                </div>
+                                <div class="news-date">
+                                    <span><i class="icon-calendar"></i>14.02.2022</span>
+                                    <span><i class="icon-view"></i>268 473</span>
+                                </div>
+                                <div class="news-info">
+                                    <h4>Mayor of the city Alexei Romanov met with Artem Vlasov</h4>
+                                    <p>Power outage in Uzbekistan was caused by a major accident in...</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="links section">
+        <div class="container">
+            <div class="links-wrapper">
+                <div class="links-title title">
+                    <h2>Beneficiaries</h2>
+                </div>
+                <div class="links-main">
+                    <div class="owl-carousel owl-theme links-carousel">
+                        <div class="item">
+                            <a href="#" class="links-item">
+                                <div class="links-image">
+                                    <img src="{{ url_for('static', filename='images/links1.png')}}" alt="">
+                                </div>
+                                <div class="linls-text">
+                                    <p>Ministry of Investments and Foreign Trade of the Republic of Uzbekistan</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="links-item">
+                                <div class="links-image">
+                                    <img src="{{ url_for('static', filename='images/links1.png')}}" alt="">
+                                </div>
+                                <div class="linls-text">
+                                    <p>Ministry of Investments and Foreign Trade of the Republic of Uzbekistan</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="links-item">
+                                <div class="links-image">
+                                    <img src="{{ url_for('static', filename='images/links1.png')}}" alt="">
+                                </div>
+                                <div class="linls-text">
+                                    <p>Ministry of Investments and Foreign Trade of the Republic of Uzbekistan</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#" class="links-item">
+                                <div class="links-image">
+                                    <img src="{{ url_for('static', filename='images/links1.png')}}" alt="">
+                                </div>
+                                <div class="linls-text">
+                                    <p>Ministry of Investments and Foreign Trade of the Republic of Uzbekistan</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact section">
+        <div class="container">
+            <div class="container-wrapper">
+                <div class="contact-title title">
+                    <h2>Contact us</h2>
+                    <span>Leave a request and we will contact you shortly</span>
+                </div>
+                <div class="contact-form">
+                    <form action="">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="contact-input">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="contact-input">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="contact-textarea">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact-btn">
+                            <button type="submit">Send request</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
